@@ -1,6 +1,22 @@
 
-Installation Anywhere (Optional)- Windows in this case
+# Installation Anywhere (Optional)- Windows in this case
 
-Install SASS by using the following command if you have node installed:
+## *Install SASS by using the following command if you have node installed*:
 
-npm install sass -v 3.7.4
+### npm install sass -v 3.7.4
+### npm install -g sass to install it global
+
+## Troubleshooting
+- If sass still isn't recognized, try:
+
+bash
+- npx sass 0-debug_log.scss
+(This runs sass without global installation.)
+
+- If you're using Windows PowerShell or CMD, try:
+
+sh
+where sass
+(This checks if sass is in PATH.)
+
+
