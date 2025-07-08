@@ -38,5 +38,7 @@ Start displaying from line 2 (skip the first line).
 If the input has 5 lines, it shows lines 2–5.
 
 If the input has only 1 line, it shows nothing (since +2 is beyond the total lines).
+3.
+for windows: sass 1-color_variable.scss | tail -n +2
 
 
